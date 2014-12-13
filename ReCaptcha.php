@@ -78,7 +78,7 @@ class ReCaptcha
             $request .= $key . '=' . urlencode(stripslashes($value)) . '&';
         }
         $request = substr($request, 0, strlen($request)-1);
-        return $req;
+        return $request;
     }
 
     /**
